@@ -1,0 +1,36 @@
+:root {
+   /*colors*/
+  --color-title: #000;
+  --color-text-content: #6C757D;
+  --color-label: #212529;
+  --color-bg-main: #FBFBFB;
+  --color-border: #E9ECEF;
+  --color-border-dashboard: #E0E0E0;
+  --color-danger: #DC3545;
+  --color-danger-alert: #c20808;
+  --color-primary: #0D6EFD;
+  --color-warning: #FFDD40;
+  //1D6CC3
+  /*font-family*/
+  --font-family-main: 'Montserrat', sans-serif;
+
+  /*font-size*/
+  --font-size-xl: 32px;
+  --font-size-lg: 16px;
+  --font-size-md: 14px;
+
+  /*CONST*/
+  --header-height: 80px;
+
+  /*indent*/
+  --indent-xl: 70px;
+  --dashboard-p-top: 35px;
+  --dashboard-p-bottom: 58px;
+}
+
+/*media*/
+$media-xl: 1200px;
+$media-lg: 1024px;
+$media-md: 768px;
+$media-sm: 576px;
+//$media-xs: 576px;

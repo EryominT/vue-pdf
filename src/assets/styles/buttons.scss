@@ -1,0 +1,25 @@
+.btn {
+  min-width: 114px;
+  padding: 7px;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  background-color: #fff;
+
+  &--primary {
+    color: var(--color-primary);
+    border-color: var(--color-primary);
+
+    &:focus-visible {
+      box-shadow: 0px 0px 2px 1px var(--color-primary);
+    }
+  }
+
+  &--danger {
+    color: var(--color-danger);
+    border-color: var(--color-danger);
+
+    &:focus-visible {
+      box-shadow: 0px 0px 2px 1px var(--color-danger);
+    }
+  }
+}
